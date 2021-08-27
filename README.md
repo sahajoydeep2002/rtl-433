@@ -453,10 +453,6 @@ Some examples:
 | `rtl_433 -F json -M utc \| mosquitto_pub -t home/rtl_433 -l` | Will pipe the output to network as JSON formatted MQTT messages. A test MQTT client can be found in `examples/mqtt_rtl_433_test_client.py`.
 | `rtl_433 -f 433.53M -f 434.02M -H 15` | Will poll two frequencies with 15 seconds hop interval.
 
-## Google Group
-
-Join the Google group, rtl_433, for more information about rtl_433:
-https://groups.google.com/forum/#!forum/rtl_433
 
 
 ## Troubleshooting
@@ -471,7 +467,3 @@ then
 
     sudo rmmod dvb_usb_rtl28xxu rtl2832
 
-
-## Releases
-
-Version numbering scheme used is year.month. We try to keep the API compatible between releases but focus is on maintainablity.
